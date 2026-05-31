@@ -19,7 +19,7 @@ ZIP_PATH = "model.zip"
 # =========================
 if not os.path.exists(MODEL_DIR):
     with st.spinner("Mengunduh model..."):
-        url = "https://drive.google.com/uc?id=1FKXLHjrdc77PZu63mhFhaIanlj-gcwP0"
+        url = "https://drive.google.com/file/d/1-A9fg1j-Sk523xJtagU5rfLcEM5m2rDj"
         gdown.download(url, ZIP_PATH, quiet=False)
 
         with zipfile.ZipFile(ZIP_PATH, 'r') as zip_ref:
